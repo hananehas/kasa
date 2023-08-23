@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom'; // Utilisez HashRouter au lieu de createHashRouter
-import './index.css';
+import './index.scss';
 import Home from './pages/Home';
 import reportWebVitals from './reportWebVitals';
 
