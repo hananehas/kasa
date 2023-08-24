@@ -5,11 +5,14 @@ import Footer from '../components/Footer/Footer'
 function Home() {
     return (
         <div>
-            <Header/>
-            <Footer/>
+            <Header />
+            <div>
+                <Footer />
+            </div>
+
         </div>
 
-        )
+    )
 }
 
-export default Home
+export default Home ;
