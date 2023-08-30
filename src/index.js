@@ -4,7 +4,7 @@ import { HashRouter as Router } from 'react-router-dom'; // Utilisez HashRouter 
 import './index.scss';
 import Home from './pages/Home';
 import reportWebVitals from './reportWebVitals';
-
+import About from './pages/About';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
