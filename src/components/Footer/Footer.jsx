@@ -4,10 +4,10 @@ import './Footer.scss';
 
 function Footer() {
     return (
-        <Footer className="Footer">
+        <footer className="Footer">
             <img src={logo} className="Footer-logo" alt="logo" />
             <p>© 2020 Kasa. All rights reserved</p>
-        </Footer>
+        </footer>
     );
 }
 
