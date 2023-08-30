@@ -1,11 +1,11 @@
-import Banner from './HomeBanner.png';
-import './Banner';
-
-function Banner(){
-
-    <div>
-        <img src={img} className="Banner" alt="HomeBanner" ></img>
+function Banner({ img, text }){
+  return(
+    <div className="banner">
+        <img src={img} className="banner" alt="Banner" />
+        {text !==null? <h1>{text}</h1> : null}
     </div>
+  )    
 }
+
 
 export default Banner
