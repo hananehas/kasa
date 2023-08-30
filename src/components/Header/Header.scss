@@ -25,6 +25,9 @@
     line-height: 142.6%;
   
 }
+.clicked-link{
+    text-decoration: underline;
+}
 .Navbar {
     display: flex;
     gap: 57px;
@@ -35,13 +38,8 @@
       gap: 10px;
       text-transform: uppercase;
     }
-    
     a{
         text-decoration-line: none;
     }
+  
 }
-.currentLink {
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
-
