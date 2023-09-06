@@ -1,4 +1,35 @@
 .error-container {
     color: #ff6060;
 }
+.error-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 174px 0 160px 0;
+
+
+    h1 {
+        font-size: 288px;
+        margin-block: 0;
+        margin-bottom: 25px;
+        font-weight: 700;
+
+       
+    }
+
+    p {
+        margin-bottom: 144px;
+        text-align: center;
+        font-size: 36px;
+
+       
+    }
+}
+
+.back {
+    font-size: 14px;
+    color: #FF6060;
+    
+}
 
