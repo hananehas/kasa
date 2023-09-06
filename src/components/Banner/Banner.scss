@@ -10,12 +10,19 @@
         position: absolute;
         color: #F6F6F6;
         font-size: 40px;
-   
+        
+
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+        }
     }
 
     br {
         display: none;
 
+        @media screen and (max-width: 768px) {
+            display: initial;
+        }
     }
 }
   
@@ -23,5 +30,11 @@
     width: 100%;
     object-fit: cover;
     border-radius: 25px;
-    
+    height: 223px;
+   
+  
+    @media screen and (max-width: 768px){
+      height: 111px;
+      border-radius: 10px;
+    }
 }
