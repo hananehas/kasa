@@ -10,6 +10,7 @@
         position: absolute;
         color: #F6F6F6;
         font-size: 40px;
+   
     }
 
     br {
@@ -18,5 +19,9 @@
     }
 }
   
- 
-
+  .banner__img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    
+}
