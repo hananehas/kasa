@@ -1,6 +1,7 @@
 .error-container {
     color: #ff6060;
 }
+
 .error-content {
     display: flex;
     flex-direction: column;
@@ -8,6 +9,9 @@
     align-items: center;
     margin: 174px 0 160px 0;
 
+    @media (max-width: 768px) {
+        margin: 200px 57px 235px 57px;
+    }
 
     h1 {
         font-size: 288px;
@@ -15,7 +19,9 @@
         margin-bottom: 25px;
         font-weight: 700;
 
-       
+        @media (max-width: 768px) {
+            font-size: 96px;
+        }
     }
 
     p {
@@ -23,7 +29,9 @@
         text-align: center;
         font-size: 36px;
 
-       
+        @media (max-width: 768px) {
+            font-size: 18px;
+        }
     }
 }
 
@@ -32,4 +40,3 @@
     color: #FF6060;
     
 }
-
